@@ -1,0 +1,2 @@
+# Virtual-Reality-based-Human-Machine-Collaboration-System
+本系统实现了以Kinect骨骼识别为基础的人机协同运动，模拟平行空间实现远程协同。 Kinect方面的开发重点在于“人机协同”。结合Kinect体感控制技术与机器人控制技术，通过Kinect体感传感器采集人体动作信息，在电脑上进行图像处理，解析出相应的人体动作，然后建立socket通信向水滴机器人发送相应的控制指令，控制机器人作出实时模仿（行走）或者其他动作；创新使用redirection walking(重定向)实现用户在小范围现实空间漫游大范围虚拟空间；使用Nginx服务器、unity3D搭建流媒体服务器 ,完成视频直播式的虚拟现实场景交互；使用腾讯云TRTC SDK扩展语音通话。
